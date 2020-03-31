@@ -2,7 +2,7 @@
 
 |     BRFC     |    title     | authors | version |
 | :----------: | :----------: | :-----: | :-----: |
-| 298e080a4598 | jsonEnvelope | nchain  |   0.1   |
+| 298e080a4598 | jsonEnvelope | nChain  |   0.1   |
 
 ## Overview
 
