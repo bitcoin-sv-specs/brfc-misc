@@ -61,8 +61,14 @@ func main() {
 		Encoding:  "json",
 	}
 
+	pub, err := hex.DecodeString(*jsonEnvelope.PublicKey)
+	if err != nil {
+		fmt.Println(err)
+		return
+	}
+
 	// VERIFY
-	verifyPubKey, err := btcec.ParsePubKey([]byte(*jsonEnvelope.PublicKey), btcec.S256())
+	verifyPubKey, err := btcec.ParsePubKey(pub, btcec.S256())
 	if err != nil {
 		fmt.Println(err)
 		return
