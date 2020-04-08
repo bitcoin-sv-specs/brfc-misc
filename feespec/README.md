@@ -1,4 +1,4 @@
-# Fee Spec
+# Fee Specification
 
 |     BRFC     	|  title  	|  authors 	| version 	|
 |:------------:	|:-------:	|:--------:	|:-------:	|
@@ -10,7 +10,7 @@ The following specification describes the structure and functionality of fees th
 The bytes field is essentally a unit denoting the number of bytes that the satoshi amount will cover. In the example below the `relayFee` for the `data` feeType would be interpreted as 2 satoshis per 1000 bytes. Making the unit variable future-proofs this standard against a scenario where more granularity is required. It is assumed by convention that miners will use values that are powers of 10 for the bytes field for simple interpretation however this is not a requirement.
 
 
-## Fee Spec Example
+## Fee Specification Example
 
 
 ```json

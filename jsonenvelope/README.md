@@ -1,4 +1,4 @@
-# JSON Envelope Spec
+# JSON Envelope Specification
 
 |     BRFC     |    title     | authors | version |
 | :----------: | :----------: | :-----: | :-----: |
