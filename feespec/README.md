@@ -176,7 +176,7 @@ Let `1₿` = `$102.58`
 
 To get the `FEE_SATS` and `FEE_BYTES` needed:
 
-`FEE_SATS` = 0.00001*10^8/102.58 = `0.9748488984`
+`FEE_SATS` = 0.000001*10^8/102.58 = `0.9748488984`
 
 Since `FEE_SATS` must be an integer, the miner must decide the amount of percision/accuracy needed through the use of `FEE_BYTES` and would charge:
 
