@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bsv": "^1.5.0"
+    "bsv": "^2.0.10"
   }
 }
